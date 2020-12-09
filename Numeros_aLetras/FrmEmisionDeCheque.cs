@@ -21,7 +21,7 @@ namespace Numeros_aLetras
         {
             //NUMWORD.NumerosLetras.testUnidades();
             int num = Int32.Parse(this.txtCantidad.Text);
-            this.txtResultado.Text = NUMWORD.NumerosLetras.getCentenas(num);
+            this.txtResultado.Text = NUMWORD.NumerosLetras.getCentenaMillon(num);
         }
     }
 }
